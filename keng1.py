@@ -11,12 +11,12 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="EpXbu2IRbwlOz9SntHQa.ScFjCUWZY2oU7YzWFlMgcG.+u/0usWcZY7rbWP/PxIYJeKzbc4jruC8zRgDADrxZ7U=")
+cl.login(token="Epu4pLgS0IThma3qPQv1.WdJy3lEtmWYrwUqPWWtzaq.RV+hB440a6jAprONynAdO2fvjtsHY2rtTnRaZxWv1ZA=")
 cl.loginResult()
 
-ki1 = LINETCR.LINE()
-ki1.login(token="EoRrJ7tye8FQarygx2h7.VlpYu+Q6jGzsicHOptxRPW.acUdejhDzXHwLZQftewce6f1PLt3gRrV0kbM9kqGOOc=")
-ki1.loginResult()
+#ki1 = LINETCR.LINE()
+#ki1.login(token="EoRrJ7tye8FQarygx2h7.VlpYu+Q6jGzsicHOptxRPW.acUdejhDzXHwLZQftewce6f1PLt3gRrV0kbM9kqGOOc=")
+#ki1.loginResult()
 
 #ki2 = LINETCR.LINE()
 #ki2.login(token="Eoanj57G8zVmnx1Lbcq0.+ZViS46tqNx/xW3+/xvqWa.7OEC6oc00qyDxg4oyNPkxUPR6cp4NQtisWXcXsisb04=")
@@ -289,8 +289,8 @@ helpMessage3 ="""
 ║✰ Hhx3 ➠เช็คข้อความคนลบ
 ╚══════════════════════"""
 
-KAC=[cl,ki1]
-mid = cl.getProfile().mid
+#KAC=[cl,ki1]
+#mid = cl.getProfile().mid
 #Amid1 = ki1.getProfile().mid
 #Amid2 = ki2.getProfile().mid
 #Amid3 = ki3.getProfile().mid
@@ -310,8 +310,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = ["u50ec7507ef1ca8dc7ce2cf3bacf21087",Amid1]
-self = ["u50ec7507ef1ca8dc7ce2cf3bacf21087",Amid1]
+Bots = ["u50ec7507ef1ca8dc7ce2cf3bacf21087",mid]
+self = ["u50ec7507ef1ca8dc7ce2cf3bacf21087",mid]
 admin = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
 admsa = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
 owner = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
