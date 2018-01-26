@@ -11,7 +11,7 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="Epu4pLgS0IThma3qPQv1.WdJy3lEtmWYrwUqPWWtzaq.RV+hB440a6jAprONynAdO2fvjtsHY2rtTnRaZxWv1ZA=")
+cl.login(token="EpmL2BRVCB55OF68FOX7.uoX1b/8CQnX84S87RpiqHW.NEcUWsyRYY/I4bHOwj7/xIwI9MGRwBB8NXwFgkiGZoc=")
 cl.loginResult()
 
 #ki1 = LINETCR.LINE()
@@ -1782,7 +1782,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["ครับผมมีอะไรหลังไมค\nแล้วก็นะจะแท็ก\nทำไมเยอะแยะ\n\n[Byมินทีมทดลองบอท]"]
+                     balas = ["ครับผมมีอะไรหลังไมค\nแล้วก็จะแท็ก\nทำไมเยอะแยะ\n\n"]
                      ret_ = "[ข้อความ อัตโนมัต] " + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -2357,7 +2357,7 @@ def bot(op):
                      cl.sendText(msg.to,"Admin permission required.")
                      print "[Error]Command denied - Admin permission required"
 
-            elif "Gc" == msg.text:
+            elif "เช็คแอด" == msg.text:
                 try:
                     group = cl.getGroup(msg.to)
                     GS = group.creator.mid
@@ -2387,7 +2387,7 @@ def bot(op):
                 except:
                     cl.sendText(msg.to,"Could not find it")
 
-            elif "#set" in msg.text:
+            elif "นับ" in msg.text:
 				cl.sendText(msg.to, "Let's see who lazy to type")
 				try:
 					del wait2['readPoint'][msg.to]
