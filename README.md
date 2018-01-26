@@ -1,39 +1,47 @@
-# SELFBOTS
+Termux
 
-# SUPORT
-#### Tagall
-#### cek sider/cctv
-#### tampilkan pp
-#### autolike
-#### audio/musik
-#### translate bahasa
-#### Nuke/kickall
-#### DLL
-
-V2.1 editor_::
-Prankbots
-# UPLOADING
-V2.1 last update::
-23/01/2018
-# CONTACT OFFICIAL
-
-<a href="https://line.me/R/ti/p/%40gnh2780p"><img height="36" border="0" alt="Add Friend" src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
-
-# LINE ME
-
-http://line.me/ti/p/~adiputra.95
-
-# TUTORIAL YOUTUBE
-#### Command cara install dan loginya ada di deskripsi video
-#### Silahkan klik link nya
-https://youtu.be/H8cUWlBJG3c
-### SUBSCRIBE
-https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ
+pkg install git
+pkg install nano
+pkg install python2
+pkg install pip2
+pip2 install request
+pip2 install rsa
+pip2 install thrift==0.9.3
+pip2 install pyowm
+pip2 install tweepy
+pip2 install html5
+pip2 install BeautifulSoup4
+pip2 install BeautifulSoup
+pip2 install wikipedia
+pip2 install goslate
+pip2 install gtts
+pip2 install googletrans
+pip2 install Translator
+git clone https://github.com/tankeng/selbot2
+cd selbot2
+nano keng1.py (เข้าเปลี่ยน Token)
+python keng1.py
 
 
-### THANKS TO.
+Server
 
-#### Allah swt.
-#### Prankbots
-#### Black of gamer
-Dan kawan"..
+sudo apt-get install git
+sudo apt-get install nano
+sudo apt-get install python2
+sudo apt-get install pip2
+sudo pip2 install request
+sudo pip2 install rsa
+sudo pip2 install thrift==0.9.3
+sudo pip2 install pyowm
+sudo pip2 install tweepy
+sudo pip2 install html5
+sudo pip2 install BeautifulSoup4
+sudo pip2 install BeautifulSoup
+sudo pip2 install wikipedia
+sudo pip2 install goslate
+sudo pip2 install gtts
+sudo pip2 install googletrans
+sudo pip2 install Translator
+git clone https://github.com/tankeng/selbot2
+cd selbot2
+python keng1.py
