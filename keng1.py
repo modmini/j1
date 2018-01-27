@@ -11,7 +11,7 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="EpmL2BRVCB55OF68FOX7.uoX1b/8CQnX84S87RpiqHW.NEcUWsyRYY/I4bHOwj7/xIwI9MGRwBB8NXwFgkiGZoc=")
+cl.login(token="EpXjXi2vH9KujBhQYuHa.ScFjCUWZY2oU7YzWFlMgcG.Nr6wv8IAJmiWia9xivVsJH4PA8c/dPIiq4fGlhiP66A=")
 cl.loginResult()
 
 #ki1 = LINETCR.LINE()
@@ -312,11 +312,11 @@ targets = []
 mid = cl.getProfile().mid
 Bots = ["u50ec7507ef1ca8dc7ce2cf3bacf21087",mid]
 self = ["u50ec7507ef1ca8dc7ce2cf3bacf21087",mid]
-admin = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
-admsa = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
-owner = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
-adminMID = "u50ec7507ef1ca8dc7ce2cf3bacf21087"
-Creator="u50ec7507ef1ca8dc7ce2cf3bacf21087"
+admin = "ub027c972ec33cb63aeef26707cb9860a"
+admsa = "ub027c972ec33cb63aeef26707cb9860a"
+owner = "ub027c972ec33cb63aeef26707cb9860a"
+adminMID = "ub027c972ec33cb63aeef26707cb9860a"
+Creator="ub027c972ec33cb63aeef26707cb9860a"
 wait = {
     "alwayRead":False,
     "detectMention":True,    
