@@ -20,7 +20,7 @@ pip2 install Translator
 git clone https://github.com/tankeng/selbot2
 cd selbot2
 nano keng1.py (เข้าเปลี่ยน Token)
-python keng1.py
+python2 keng1.py
 
 
 Server
